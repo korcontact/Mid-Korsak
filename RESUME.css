@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+}
+.bg{
+    background-image: url(https://gifdb.com/images/high/nyan-cat-rbnlqzxbgvei37v8.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: none;
+    color: #f14bbf;
+    text-align: center;
+    padding: 10px;
+    margin: 1rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #00ff00, 0 0 30px #1100ff;
+}
+
+.company{
+    font-size: 30px ;
+}
+.textheader{
+    text-decoration: none;
+}
+.contact, .summary, .education, .experience, .skills {
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0e7f0;
+    border-radius: 10px;
+    border: 3px solid #6625b1;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    max-width: 100rem;
+}
+
+.contact p, .summary p, .education p, .experience p {
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:repeat(auto-fit,minmax(200px, 1fr));
+    column-gap: 2rem;
+}
+li {
+    list-style-type: circle;
+}
+
+
+
+.footer-top {
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.footer-top-item {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer-top-item table{
+    width: 100%;
+    text-align: center;
+}
+.footer-top-item td a{
+    text-decoration: none;
+    font-size: 1rem; 
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000000;
+}
+.footer-top-item h2{
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+}

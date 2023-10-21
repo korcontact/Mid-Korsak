@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.bg{
+    background-image: url(https://res.cloudinary.com/cloudinary-marketing/images/v1649720751/Web_Assets/blog/Mario_1/Mario_1-gif?_i=AA);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-fluid{
+    justify-content: space-between;
+}
+
+.hero1con {
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px, 1fr));
+    column-gap: 15rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.hero1info{
+    max-width: 100%;
+    padding: 2rem;
+}
+.hero1info .h3hero1{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #000000;
+}
+.hero1info .h3hero2{
+    font-size: 4rem;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 2px #000000;
+}
+.hero1info .h3hero3{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #3d28b3;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.hero1info .phero1{
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #000000;
+}
+.heroimg1 .img1 {
+    width: 70%;
+    padding-inline-end: 1px;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid #3d28b3;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.2);
+    transform: scale(1);
+    transition: transform 1s;
+}
+.heroimg1 .img1:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.footer-top-item {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer-top-item table{
+    width: 100%;
+    text-align: center;
+}
+.footer-top-item td a{
+    text-decoration: none;
+    font-size: 1rem; 
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000000;
+}
+.footer-top-item h2{
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+}
